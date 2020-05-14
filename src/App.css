@@ -1,0 +1,41 @@
+@font-face {
+  font-family: "Hero Light Regular";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Hero Light Regular"),
+    url("/src/Media/HeroLight-Regular.woff") format("woff");
+}
+body {
+  background-color: #00baa4;
+  font-family: "Hero Light Regular";
+  color: white;
+}
+
+h1 {
+  font-size: 38px;
+  line-height: 0.5em;
+  font-family: "Hero Light Regular";
+}
+h2 {
+  font-size: 30px;
+}
+.accesible-nav {
+  background-color: #00baa4;
+  border: 1px solid white;
+  padding: 2% 5% 2% 5%;
+}
+
+.assistive-btn {
+  font-size: 20px;
+}
+.view-nr-1 {
+  padding: 1%;
+  display: block;
+  position: absolute;
+  top: 15%;
+  margin-left: 2%;
+}
+.logo-view-nr1 {
+  width: 115px;
+  height: 50px;
+}
