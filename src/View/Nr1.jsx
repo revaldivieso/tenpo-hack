@@ -8,8 +8,8 @@ class Nr1 extends React.Component {
         <img src={Logo} alt='logo tenpo' className='logo-view-nr1'></img>
         <h1>¡Hola!</h1>
         <h2>Te damos la bienvenida</h2>
-        <button type='submit'>Submit</button>
-        <button type='button'>Cancel</button>
+        <button type='submit'>Crear una cuenta</button>
+        <button type='button'>Iniciar sesión</button>
       </div>
     );
   }
