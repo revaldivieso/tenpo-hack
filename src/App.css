@@ -1,38 +1,58 @@
-.App {
-  text-align: center;
+/* --- General styles --- */
+@font-face {
+  font-family: "Hero Light Regular";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Hero Light Regular"),
+    url("/src/Media/HeroLight-Regular.woff") format("woff");
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+body {
+  background-color: #00baa4;
+  font-family: "Hero Light Regular";
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+h1 {
+  font-size: 38px;
+  line-height: 0.5em;
+  font-family: "Hero Light Regular";
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+h2 {
+  font-size: 30px;
 }
+/* --- End of General styles --- */
+/* -- Accesible navigation styles -- */
+.accesible-nav {
+  background-color: #00baa4;
+  border-bottom: 1px solid white;
+  justify-content: center;
+  display: flex;
+}
+/* div de todos los botones */
+.accesible-btns {
+  display: flex;
+}
+/* boton que lee la pantalla */
+.assistive-btn {
+  width: 26px;
+  height: 20px;
+  margin-top: 15px;
+  margin-right: 30px;
+}
+.MuiSlider-root {
+  color: white !important;
+}
+/* -- End of Accesible navigation styles -- */
+/* -- First view styles -- */
+.view-nr-1 {
+  padding: 1%;
+  display: block;
+  position: absolute;
+  top: 15%;
+  margin-left: 2%;
+}
+.logo-view-nr1 {
+  width: 115px;
+  height: 50px;
+}
+/* End of First view styles */
