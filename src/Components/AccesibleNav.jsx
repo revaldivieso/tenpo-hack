@@ -1,25 +1,31 @@
-import React from "react";
-import Assistence from "../Media/assistence.png";
-import DarkModeSwitch from "./DarkModeSwitch";
-import FontSizeToggle from "./FontSizeToggle";
+import React, { useCallback } from 'react';
+import Assistence from '../Media/assistence.png';
+import DarkModeSwitch from './DarkModeSwitch';
+import FontSizeToggle from './FontSizeToggle';
+import useScreenReader from 'react-screenreader';
 
-class AccesibleNav extends React.Component {
-  render() {
-    return (
-      <nav className="accesible-nav">
-        <div className="accesible-btns">
-          <a href="#">
-            <img
-              className="assistive-btn"
-              src={Assistence}
-              alt="boton para acceder a la asistencia auditiva"
-            ></img>
-          </a>
-          <DarkModeSwitch />
-          <FontSizeToggle />
-        </div>
-      </nav>
-    );
-  }
-}
+const AccesibleNav = () => {
+  const { reader, read, a11y } = useScreenReader();
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  const onButtonClick = useCallback(() => {
+    debugger;
+    read(`Hello screen reader!`, []);
+  });
+  return (
+    <nav className='accesible-nav'>
+      {a11y()}
+      <button
+        onClick={onButtonClick}
+        {...reader('This sentence will be read on button focus')}>
+        <img
+          className='assistive-btn'
+          src={Assistence}
+          alt='boton para acceder a la asistencia auditiva'></img>
+      </button>
+
+      <DarkModeSwitch />
+      <FontSizeToggle />
+    </nav>
+  );
+};
 export default AccesibleNav;
