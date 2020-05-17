@@ -6,11 +6,9 @@ import useScreenReader from 'react-screenreader';
 
 const AccesibleNav = () => {
   const { reader, read, a11y } = useScreenReader();
-  // eslint-disable-next-line react-hooks/exhaustive-deps
-  const onButtonClick = useCallback(() => {
-    debugger;
-    read(`Hello screen reader!`, []);
-  });
+
+  const onButtonClick = useCallback(() => read(`Hello screen reader!`), []);
+
   return (
     <nav className='accesible-nav'>
       {a11y()}
