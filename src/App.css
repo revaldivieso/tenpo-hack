@@ -92,6 +92,7 @@ body {
 }
 
 .btn1_view1 {
+    font-weight: bold;
     font-size: 12px;
     height: 45px;
     width: 90%;
@@ -106,6 +107,7 @@ body {
 }
 
 .btn2_view1 {
+    font-weight: bold;
     font-size: 12px;
     height: 45px;
     width: 90%;
@@ -120,6 +122,11 @@ body {
 }
 
 .text_view1 {
+    font-weight: bold;
+    color: #FFFFFF;
+}
+
+.text2_view1 {
     color: #FFFFFF;
 }
 
@@ -140,6 +147,7 @@ body {
 }
 
 .btn1_view2 {
+    font-weight: bold;
     font-size: 12px;
     height: 45px;
     width: 90%;
@@ -155,6 +163,7 @@ body {
 
 .btn2_view2 {
     background-color: #00BAA4;
+    font-weight: bold;
     font-size: 12px;
     height: 45px;
     width: 90%;
@@ -176,7 +185,7 @@ body {
 
 .comencemos {
     color: #00BAA4;
-    font-size: 10px;
+    font-size: 12px;
 }
 
 .datos {
