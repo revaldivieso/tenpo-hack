@@ -1,73 +1,185 @@
 /* --- General styles --- */
-@font-face {
-  font-family: "Hero Light Regular";
-  font-style: normal;
-  font-weight: normal;
-  src: local("Hero Light Regular"),
-    url("/src/Media/HeroLight-Regular.woff") format("woff");
-}
+
+
+/* @font-face {
+    font-family: "Hero Light Regular";
+    font-style: normal;
+    font-weight: normal;
+    src: local("Hero Light Regular"), url("/src/Media/HeroLight-Regular.woff") format("woff");
+} */
 
 body {
-  background-color: #06a18f;
-  font-family: "Hero Light Regular";
-  color: white;
+    font-family: "Montserrat";
 }
 
-h1 {
-  font-size: 38px;
-  line-height: 0.5em;
-  font-family: "Hero Light Regular";
-}
 
-h2 {
-  font-size: 30px;
-}
-
-/* --- End of General styles --- */
 /* -- Accesible navigation styles -- */
+
 .accesible-nav {
-  background-color: #00baa4;
-  border-bottom: 1px solid white;
-  justify-content: center;
-  display: flex;
+    background-color: #00baa4;
+    border-bottom: 1px solid white;
+    justify-content: center;
+    display: flex;
 }
+
 
 /* div de todos los botones */
+
 .accesible-btns {
-  display: flex;
+    display: flex;
 }
 
+
 /* boton que lee la pantalla */
+
 .assistive-btn {
-  width: 26px;
-  height: 20px;
-  margin-top: 15px;
-  margin-right: 30px;
+    width: 26px;
+    height: 20px;
+    margin-top: 15px;
+    margin-right: 30px;
 }
 
 .MuiSlider-root {
-  color: white !important;
+    color: white !important;
 }
 
+
 /* -- End of Accesible navigation styles -- */
+
+
 /* -- First view styles -- */
-.view-nr-1 {
-  padding: 1%;
-  display: block;
-  position: absolute;
-  top: 15%;
-  margin-left: 2%;
+
+
+/* .view-nr-1 {
+    padding: 1%;
+    display: block;
+    position: absolute;
+    top: 15%;
+    margin-left: 2%;
 }
 
 .logo-view-nr1 {
-  width: 115px;
-  height: 50px;
+    width: 115px;
+    height: 50px;
 }
 
 .btn-nr-1 {
-  width: 100%;
-  height: 100%;
-  display: block;
-}
+    width: 100%;
+    height: 100%;
+    display: block;
+} */
+
 
 /* End of First view styles */
+
+
+/* Estilos view_1 */
+
+.container_1 {
+    background-color: #00BAA4;
+    min-height: 100vh;
+}
+
+.logo {
+    width: 30%;
+}
+
+.btns_view1 {
+    margin-top: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.btn1_view1 {
+    font-size: 12px;
+    height: 45px;
+    width: 90%;
+    background-color: #FFFFFF;
+    color: #00BAA3;
+    border: none;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.btn2_view1 {
+    font-size: 12px;
+    height: 45px;
+    width: 90%;
+    background-color: #00BAA4;
+    color: #FFFFFF;
+    border: solid 1px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.text_view1 {
+    color: #FFFFFF;
+}
+
+.text_paypal {
+    font-size: 15px;
+}
+
+
+/* Estilos view_2 */
+
+.arrow {
+    color: #5A5A5A;
+}
+
+.container_2 {
+    background-color: #F1F1F1;
+    height: 100vh;
+}
+
+.btn1_view2 {
+    font-size: 12px;
+    height: 45px;
+    width: 90%;
+    background-color: #587CF7;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.btn2_view2 {
+    background-color: #00BAA4;
+    font-size: 12px;
+    height: 45px;
+    width: 90%;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.btns_view2 {
+    margin-top: 110px;
+}
+
+
+/* Estilos view3 */
+
+.comencemos {
+    color: #00BAA4;
+    font-size: 10px;
+}
+
+.datos {
+    font-size: 10px;
+    color: #000000;
+}
