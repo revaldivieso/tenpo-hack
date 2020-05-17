@@ -5,7 +5,7 @@ import Nr1 from '../Nr1';
 function Home() {
   return (
     <div className='App'>
-      <AccesibleNav />
+      {/* <AccesibleNav /> */}
       <Nr1 />
     </div>
   );

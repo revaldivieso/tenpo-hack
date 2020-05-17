@@ -92,6 +92,7 @@ body {
 }
 
 .btn1_view1 {
+    font-weight: bold;
     font-size: 12px;
     height: 45px;
     width: 90%;
@@ -106,6 +107,7 @@ body {
 }
 
 .btn2_view1 {
+    font-weight: bold;
     font-size: 12px;
     height: 45px;
     width: 90%;
@@ -120,6 +122,11 @@ body {
 }
 
 .text_view1 {
+    font-weight: bold;
+    color: #FFFFFF;
+}
+
+.text2_view1 {
     color: #FFFFFF;
 }
 
@@ -140,6 +147,7 @@ body {
 }
 
 .btn1_view2 {
+    font-weight: bold;
     font-size: 12px;
     height: 45px;
     width: 90%;
@@ -155,6 +163,7 @@ body {
 
 .btn2_view2 {
     background-color: #00BAA4;
+    font-weight: bold;
     font-size: 12px;
     height: 45px;
     width: 90%;
@@ -176,10 +185,138 @@ body {
 
 .comencemos {
     color: #00BAA4;
-    font-size: 10px;
+    font-size: 12px;
+    font-weight: bold;
 }
 
 .datos {
     font-size: 10px;
     color: #000000;
+}
+
+.input_rut_serie {
+    background-color: #F1F1F1;
+    width: 100%;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 1px solid black;
+}
+
+.borde_cedula {
+    border: solid 1px #7B66C5;
+    border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    -webkit-border-radius: 15px;
+}
+
+.cedula {
+    width: 200%;
+    height: 70px;
+}
+
+.text_cedula {
+    font-size: 15px;
+}
+
+.text_purple {
+    color: #7B66C5;
+}
+
+.check {
+    cursor: pointer;
+    width: 10%;
+    height: 15px;
+}
+
+.btn_view3 {
+    font-weight: bold;
+    font-size: 12px;
+    height: 45px;
+    width: 90%;
+    background-color: #F1F1F1;
+    color: #ADADAD;
+    border: solid 1px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+
+/* Estilos view4 */
+
+.container_3 {
+    min-height: 100vh;
+    background-color: #5A5A5A;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circlen {
+    width: 80%;
+}
+
+
+/* Estilos view5 */
+
+.input_clave {
+    border: none;
+    border-radius: 8px;
+    width: 15%;
+    height: 3rem;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+
+.btn_view5 {
+    margin-top: 270px;
+    font-weight: bold;
+    font-size: 12px;
+    height: 45px;
+    width: 90%;
+    background-color: #F1F1F1;
+    color: #ADADAD;
+    border: solid 1px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+
+/* Estilos view6 */
+
+.celu {
+    width: 50%;
+}
+
+.square_vie6 {
+    margin-top: 30px;
+}
+
+.text_view6 {
+    font-weight: bold;
+    color: #FFFFFF;
+}
+
+.text2_view6 {
+    color: #FFFFFF;
+}
+
+.container_4 {
+    min-height: 100vh;
+    background-color: #00BAA4;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
