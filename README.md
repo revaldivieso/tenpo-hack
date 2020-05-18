@@ -2,13 +2,21 @@
 
 ## Acces Tenpo
 
-[Acces Tenpo](https://tenpo-hack.web.app/) es una app web móvil diseñada facilitar la apertura de cuenta remota en la app Tenpo a las personas con habilidades visuales diversas.
+[Acces Tenpo](https://tenpo-hack.web.app/)
 
 ## Definición de Usuario 👥
 
+es una app web móvil diseñada facilitar la apertura de cuenta remota en la app Tenpo a las personas con habilidades visuales diversas.
+
+## Descripcion del proyecto
+
+Incorporar una extensión con opciones que cubran las necesidades de estos usuarios. generando una personalización del aplicativo. Tales como: reconocimiento por voz, manejo del contraste, adaptación del tamaño de los textos.
+
+![menu](readmeImg/menu.jpeg)
+
 ## Prototipo 💻
 
-- [Prototipo de alta fidelidad]().
+- [Prototipo de alta fidelidad en Figma]().
 
 ## Testeo con Usuarios
 
@@ -33,3 +41,9 @@
 - [Git](https://git-scm.com/).
 
 - [Bootstrap](https://getbootstrap.com).
+
+### Dependencias
+
+- [ACCESSIBILITY](https://www.npmjs.com/package/accessibility)
+
+### Developers
