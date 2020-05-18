@@ -2,9 +2,24 @@
 
 ## Acces Tenpo
 
+Acces Tenpo es el proyecto-desafío final del Bootcamp Laboratoria realizado con el soporte de Tenpo PrePago.
 [Acces Tenpo](https://tenpo-hack.web.app/)
 
-## Definición de Usuario 👥
+### Problema propuesta:
+
+#### Apertura de cuenta remota para personas con habilidades diferentes:
+
+¿Cómo podemos lograr que una persona con habilidades diferentes puedan lograr la apertura de una cuenta remota con Tenpo? En este contexto podríamos lograr que pueda cumplir sus obligaciones financieras con una herramienta mucho más amigable.
+
+### Nuestra solución
+
+Nuestra solución se dirije a personas con capacidad reducida de visión y consiste en la posibilidad de aumentar el contraste, aumentar la letra.
+
+#### Tiempo de desarrollo
+
+6 días
+
+## Definición del producto
 
 Es una app web móvil diseñada facilitar la apertura de cuenta remota en la app Tenpo a las personas con habilidades visuales diversas.
 
@@ -14,13 +29,30 @@ Incorporar una extensión con opciones que cubran las necesidades de estos usuar
 
 ![menu](readmeImg/menu.jpeg)
 
-## Prototipo 💻
+## Definición UX
+
+### Definición de Usuario 👥
+
+#### Historias de usuario
+
+#### Definición de hecho
+
+### Prototipo 💻
 
 - [Prototipo de alta fidelidad en Figma]().
 
-## Testeo con Usuarios
+### Testeo con Usuarios
 
-## Lighthouse
+### Lighthouse
+
+### Interfaz de usuario UI
+
+#### La interfaz permite:
+
+- aumentar el texto
+- aumentar el contraste
+- lector de pantalla
+- dictado a texto
 
 ![Faro](readmeImg/faro.png)
 
@@ -48,7 +80,7 @@ Incorporar una extensión con opciones que cubran las necesidades de estos usuar
 
 ### Developers
 
-- Camila Pérez Ux.
-- Camila Osores Front-End.
-- Monica Bartha Front-End.
-- Vianny Reyes Front-End.
+- [Camila Osores - Front-end dev](https://github.com/camila-osores)
+- [Camila Perez - UX Designer](https://github.com/CamiPerezv)
+- [Monica Bartha - Front-end dev](https://github.com/MonicaBartha)
+- [Vianny Reyes - Front-end dev](https://github.com/revaldivieso)
