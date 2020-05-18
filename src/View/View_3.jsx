@@ -11,14 +11,16 @@ const View_3 = () => {
                     <i className="mt-4 ml-3 mb-3 arrow fas fa-arrow-left"></i>    
                 </Link>
                     <p className="comencemos mt-4 ml-2">COMENCEMOS CON TUS DATOS</p>
-                    <h4 className="mb-3 ml-4"><strong>Ingresa tu RUT y N° de documento o serie</strong></h4>
-                    <p className="ml-4 mb-5">¡Recuerda! Abrir tu cuenta con Tenpo es seguro y gratis.</p>
+                    <h4 className="mb-3 ml-4"><strong>Ingresa tu RUT y Número de documento o serie</strong></h4>
+                    <p className="ml-4 mb-3">¡Recuerda! Abrir tu cuenta con Tenpo es seguro y gratis.</p>
 
-                    <form action="" className="ml-4 mb-4">
+                    <form action="" className="ml-4 mb-3">
                         
-                        <input type="text" name="" id="" placeholder="RUT" className="input_rut_serie mb-5"/>
+                        <label className="mb-0" htmlFor="">RUT</label>
+                        <input type="number" name="" id="" className="input_rut_serie mb-5"/>
                         
-                        <input type="text" name="" id="" placeholder="Número de documento o serie" className="input_rut_serie"/>
+                        <label className="mb-0" htmlFor="">Número de documento o serie</label>
+                        <input type="number" name="" id="" className="input_rut_serie"/>
                     </form>
 
                         <div className="d-flex borde_cedula ml-4 mb-5">

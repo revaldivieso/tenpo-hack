@@ -12,7 +12,7 @@ const View_2 = () => {
             </Link>
 
             <div className="ml-3 mb-5">
-                <h4 className="mb-2"><strong>¿Estás list@?</strong></h4>
+                <h4 className="mb-2"><strong>¿Estás listo?</strong></h4>
                 <p className="mb-4">Antes de seguir queremos contarte que:</p> 
                 
                     <div className="d-flex flex-direction-column">
@@ -22,7 +22,7 @@ const View_2 = () => {
                     
                     <div className="d-flex flex-direction-column">
                         <img src={icon2_v1} alt="icono cedula" className="mr-3"/>
-                        <p><strong>¡Ten tu cédula a la mano! </strong>Vamos a necesitar algunos datos personales como tu <strong>RUT y N° de serie.</strong></p>
+                        <p><strong>¡Ten tu cédula a la mano! </strong>Vamos a necesitar algunos datos personales como tu <strong>RUT y Número de serie.</strong></p>
                     </div>
                     
                     <div className="d-flex flex-direction-column">

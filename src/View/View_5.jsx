@@ -14,10 +14,10 @@ const View_5 = () => {
                 <p className="ml-4 mb-5">Con ella podrás acceder de forma segura.</p>
                 
                 <div className="row d-flex justify-content-center ml-4 mt-4">
-                    <input type="text" className="input_clave mr-3"/>
-                    <input type="text" className="input_clave mr-3"/>
-                    <input type="text" className="input_clave mr-3"/>
-                    <input type="text" className="input_clave mr-3"/>
+                    <input type="number" className="input_clave mr-3"/>
+                    <input type="number" className="input_clave mr-3"/>
+                    <input type="number" className="input_clave mr-3"/>
+                    <input type="number" className="input_clave mr-3"/>
                 </div>
 
                 <div className="container-fluid">

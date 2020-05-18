@@ -7,7 +7,7 @@ class Nr1 extends React.Component {
     return (
 
       <div className="container_1">
-        <img src={logotenpo} className="logo mt-4 ml-3 mb-5" alt='logo tenpo'/>
+        <img src={logotenpo} className="logo mt-4 ml-3 mb-5" alt="logo tenpo"/>
         <h1 className="text_view1 ml-3 mt-4">¡Hola!</h1>
         <h2 className="text2_view1 ml-3">Te damos la bienvenida</h2>
 
