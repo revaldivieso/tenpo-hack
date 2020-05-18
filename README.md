@@ -1,4 +1,4 @@
-![Logo-Tenpo](readmeImg/Logo-Tenpo.png)
+![logo](readmeImg/logo.png)
 
 ## Acces Tenpo
 
@@ -6,11 +6,11 @@
 
 ## Definición de Usuario 👥
 
-es una app web móvil diseñada facilitar la apertura de cuenta remota en la app Tenpo a las personas con habilidades visuales diversas.
+Es una app web móvil diseñada facilitar la apertura de cuenta remota en la app Tenpo a las personas con habilidades visuales diversas.
 
-## Descripcion del proyecto
+## Descripción del proyecto
 
-Incorporar una extensión con opciones que cubran las necesidades de estos usuarios. generando una personalización del aplicativo. Tales como: reconocimiento por voz, manejo del contraste, adaptación del tamaño de los textos.
+Incorporar una extensión con opciones que cubran las necesidades de estos usuarios. generando una personalización del aplicativo. Tales como: reconocimiento por voz, lector de pantalla, manejo del contraste, adaptación del tamaño de los textos.
 
 ![menu](readmeImg/menu.jpeg)
 
@@ -47,3 +47,8 @@ Incorporar una extensión con opciones que cubran las necesidades de estos usuar
 - [ACCESSIBILITY](https://www.npmjs.com/package/accessibility)
 
 ### Developers
+
+- Camila Pérez Ux.
+- Camila Osores Front-End.
+- Monica Bartha Front-End.
+- Vianny Reyes Front-End.
