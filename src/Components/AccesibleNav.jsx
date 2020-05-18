@@ -1,4 +1,4 @@
-import React from "react";
+/*import React from "react";
 import Assistence from "../Media/assistence.png";
 import DarkModeSwitch from "./DarkModeSwitch";
 import FontSizeToggle from "./FontSizeToggle";
@@ -22,4 +22,4 @@ class AccesibleNav extends React.Component {
     );
   }
 }
-export default AccesibleNav;
+export default AccesibleNav;*/
