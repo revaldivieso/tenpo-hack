@@ -25,8 +25,8 @@ var options = {
     img: 'accessibility',
   },
 };
-options.textToSpeechLang = 'es-EN'; // or any other language
-options.speechToTextLang = 'es-EN'; // or any other language
+options.textToSpeechLang = 'es-ES'; // or any other language
+options.speechToTextLang = 'es-ES'; // or any other language
 options.modules = { bigCursor: false, underlineLinks: false };
 
 export const load = () => {
