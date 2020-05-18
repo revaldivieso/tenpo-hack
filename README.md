@@ -43,8 +43,6 @@ Incorporar una extensión con opciones que cubran las necesidades de estos usuar
 
 ### Testeo con Usuarios
 
-### Lighthouse
-
 ### Interfaz de usuario UI
 
 #### La interfaz permite:
@@ -53,6 +51,8 @@ Incorporar una extensión con opciones que cubran las necesidades de estos usuar
 - aumentar el contraste
 - lector de pantalla
 - dictado a texto
+
+#### Evaluación con Lighthouse
 
 ![Faro](readmeImg/faro.png)
 
