@@ -17,10 +17,10 @@ const View_3 = () => {
                     <form action="" className="ml-4 mb-3">
                         
                         <label className="mb-0" htmlFor="">RUT</label>
-                        <input type="number" name="" id="" className="input_rut_serie mb-5"/>
+                        <input type="text" name="" id="" className="input_rut_serie mb-5"/>
                         
                         <label className="mb-0" htmlFor="">Número de documento o serie</label>
-                        <input type="number" name="" id="" className="input_rut_serie"/>
+                        <input type="text" name="" id="" className="input_rut_serie"/>
                     </form>
 
                         <div className="d-flex borde_cedula ml-4 mb-5">
