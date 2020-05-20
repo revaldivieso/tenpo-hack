@@ -9,15 +9,25 @@ const labels = {
   decreaseTextSpacing: 'Decrementar espacio del texto',
   invertColors: 'Colores invertidos',
   grayHues: 'Tonos grises',
-  underlineLinks: 'Subrayar enlaces',
-  bigCursor: 'cursor grande',
   readingGuide: 'Guía de lectura',
   textToSpeech: ' Texto a voz',
   speechToText: 'Dictado a texto',
 };
-var options = { labels: labels };
-options.textToSpeechLang = 'es-EN'; // or any other language
-options.speechToTextLang = 'es-EN'; // or any other language
+var options = {
+  labels: labels,
+  session: {
+    persistent: false,
+  },
+
+  icon: {
+    useEmojis: false,
+    circular: true,
+    img: 'accessibility',
+  },
+};
+options.textToSpeechLang = 'es-ES'; // or any other language
+options.speechToTextLang = 'es-ES'; // or any other language
+options.modules = { bigCursor: false, underlineLinks: false };
 
 export const load = () => {
   new Accessibility(options);

@@ -1,18 +1,58 @@
-![Logo-Tenpo](readmeImg/Logo-Tenpo.png)
+![logo](readmeImg/logo.png)
 
 ## Acces Tenpo
 
-[Acces Tenpo](https://tenpo-hack.web.app/) es una app web móvil diseñada facilitar la apertura de cuenta remota en la app Tenpo a las personas con habilidades visuales diversas.
+Acces Tenpo es el proyecto-desafío final del Bootcamp Laboratoria realizado con el soporte de Tenpo PrePago.
+[Acces Tenpo](https://tenpo-hack.web.app/)
 
-## Definición de Usuario 👥
+### Problema propuesta:
 
-## Prototipo 💻
+#### Apertura de cuenta remota para personas con habilidades diferentes:
 
-- [Prototipo de alta fidelidad]().
+¿Cómo podemos lograr que una persona con habilidades diferentes puedan lograr la apertura de una cuenta remota con Tenpo? En este contexto podríamos lograr que pueda cumplir sus obligaciones financieras con una herramienta mucho más amigable.
 
-## Testeo con Usuarios
+### Nuestra solución
 
-## Lighthouse
+Nuestra solución se dirije a personas con capacidad reducida de visión y consiste en la posibilidad de aumentar el contraste, aumentar la letra.
+
+#### Tiempo de desarrollo
+
+6 días
+
+## Definición del producto
+
+Es una app web móvil diseñada facilitar la apertura de cuenta remota en la app Tenpo a las personas con habilidades visuales diversas.
+
+## Descripción del proyecto
+
+Incorporar una extensión con opciones que cubran las necesidades de estos usuarios. generando una personalización del aplicativo. Tales como: reconocimiento por voz, lector de pantalla, manejo del contraste, adaptación del tamaño de los textos.
+
+![menu](readmeImg/menu.jpeg)
+
+## Definición UX
+
+### Definición de Usuario 👥
+
+#### Historias de usuario
+
+#### Definición de hecho
+
+### Prototipo 💻
+
+- [Prototipo de alta fidelidad en Figma]().
+
+### Testeo con Usuarios
+
+### Interfaz de usuario UI
+
+#### La interfaz permite:
+
+- aumentar el texto
+- aumentar el contraste
+- lector de pantalla
+- dictado a texto
+
+#### Evaluación con Lighthouse
 
 ![Faro](readmeImg/faro.png)
 
@@ -33,3 +73,14 @@
 - [Git](https://git-scm.com/).
 
 - [Bootstrap](https://getbootstrap.com).
+
+### Dependencias
+
+- [ACCESSIBILITY](https://www.npmjs.com/package/accessibility)
+
+### Developers
+
+- [Camila Osores - Front-end dev](https://github.com/camila-osores)
+- [Camila Perez - UX Designer](https://github.com/CamiPerezv)
+- [Monica Bartha - Front-end dev](https://github.com/MonicaBartha)
+- [Vianny Reyes - Front-end dev](https://github.com/revaldivieso)
